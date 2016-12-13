@@ -1,0 +1,41 @@
+{
+    "name": "default-editor",
+    "version": "1.0.0",
+    "description": "Get the user's default editor",
+    "license": "MIT",
+    "repository": "webframp/default-editor",
+    "author": {
+        "name": "Sean Escriva",
+        "email": "sean.escriva@gmail.com",
+        "url": "webframp.com"
+    },
+    "engines": {
+        "node": ">=4"
+    },
+    "scripts": {
+        "test": "xo && ava"
+    },
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "default",
+        "env",
+        "environment",
+        "var",
+        "variables",
+        "get",
+        "user",
+        "editor",
+        "vim",
+        "emacs",
+        "notepad"
+    ],
+    "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+    },
+    "xo": {
+        "esnext": true
+    }
+}
