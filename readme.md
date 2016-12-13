@@ -15,7 +15,7 @@ $ npm install --save default-editor
 The exe defined by $EDITOR is assumed to be in the $PATH
 
 ```js
-const defaultEditor = require('default-editor);
+const defaultEditor = require('default-editor');
 
 // macOS
 console.log(defaultEditor);
