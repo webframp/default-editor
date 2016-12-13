@@ -1,6 +1,6 @@
 {
     "name": "default-editor",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Get the user's default editor",
     "license": "MIT",
     "repository": "webframp/default-editor",
