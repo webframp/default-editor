@@ -3,6 +3,8 @@
 // Finds the default text editor based on the update-alternatives system
 // on Debian based systems.
 const find_editor_alternative = () => {
+  const fs = require('fs');
+
   // Does the symbolic link exist?
   if (fs.existsSync('/usr/bin/editor')) {
     return fs.realpathSync('/usr/bin/editor');
